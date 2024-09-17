@@ -3,7 +3,6 @@
 # Function to calculate simple interest
 def calculate_simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
-
 # Main function to execute the program
 def main():
     # Get user input
@@ -16,7 +15,6 @@ def main():
 
     # Display the result
     print(f"The simple interest is: {interest}")
-
 # Entry point of the program
 if __name__ == "__main__":
     main()
